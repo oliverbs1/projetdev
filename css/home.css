@@ -1,0 +1,199 @@
+.bloc {
+    width: 100%;
+}
+
+.bloc .wrapper {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mar {
+    font-family: "Marlon";
+    font-style: italic;
+}
+
+.pal {
+    font-family: "Palatino";
+}
+
+.hel {
+    font-family: "Helvetiva Neue";
+}
+
+
+/**  bloc1 css  **/
+
+#bloc1 {
+    height: 100%;
+}
+
+.mezze {
+    width: 100%;
+}
+
+.swiper-container {
+    position: relative;
+}
+
+#header {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#header img {
+    width: 50px;
+    padding-top: 10px;
+}
+
+#header ul {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 60%;
+    color: white;
+    font-size: 14px;
+}
+
+#header li {
+    display: inline-block;
+    padding-right: 10px;
+    font-weight: lighter;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 100px;
+}
+
+#header p {
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+
+/**  bloc2 css  **/
+
+#bloc2 {
+    height: 400px;
+    background-color: #ffffff;
+}
+
+#bloc2 img {
+    padding: 9px 406px;
+    width: 87px;
+}
+
+.abu {
+    font-size: 34px;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+
+/**  bloc3 css  **/
+
+#bloc3 {
+    background-color: #f3f3f3;
+    height: 1300px;
+}
+
+
+/**  footer css  **/
+
+#footer {
+    background-color: #ffffff;
+    height: 250px;
+}
+
+.ced {
+    width: 150px;
+    padding-top: 50px;
+    font-size: 12px;
+}
+
+.ced h3 {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.ced p {
+    font-size: 10px;
+    color: #9e9e9e;
+}
+
+.con {
+    width: 150px;
+    font-size: 12px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+.con h3 {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.con p {
+    font-size: 10px;
+    color: #9e9e9e;
+    line-height: 15px;
+}
+
+.News {
+    width: 150px;
+    font-size: 12px;
+    position: absolute;
+    top: 50px;
+    left: 483px;
+}
+
+.News h3 {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.News p {
+    font-size: 10px;
+    color: #9e9e9e;
+}
+
+.space {
+    height: 1px;
+    background-color: #f0f0f0;
+    margin-top: 70px;
+}
+
+.copyright {
+    font-size: 10px;
+    color: #9e9e9e;
+    padding: 12px 10px;
+}
+
+#footer ul {
+    position: absolute;
+    top: 220px;
+    left: 86%;
+}
+
+#footer li {
+    display: inline-block;
+}
+
+#footer img {
+    width: 20px;
+}
