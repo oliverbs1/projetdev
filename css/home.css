@@ -77,6 +77,16 @@ h1 {
     color: white;
 }
 
+.swiper-pagination {
+    position: absolute;
+    top: 93%;
+    left: 48%;
+}
+
+.swiper-pagination-bullet {
+    margin-right: 3px;
+}
+
 
 /**  bloc2 css  **/
 
