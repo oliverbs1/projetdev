@@ -3,12 +3,12 @@ var app = express();
 var http = require('http').Server(app);
 
 
-app.use('/css', express.static(__dirname + '/pagenike/css'));
-app.use('/images', express.static(__dirname + '/pagenike/images'));
-app.use('/js', express.static(__dirname + '/pagenike/js'));
+app.use('/css', express.static(__dirname + '/css'));
+app.use('/images', express.static(__dirname + '/images'));
+app.use('/js', express.static(__dirname + '/js'));
 
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + 'home.html');
+    res.sendFile(__dirname + '/home.html');
 });
 
 app.get('/menu', function (req, res) {

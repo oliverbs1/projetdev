@@ -45,7 +45,7 @@
 }
 
 #header img {
-    width: 50px;
+    width: 80px;
     padding-top: 10px;
 }
 
@@ -53,9 +53,9 @@
     display: inline-block;
     position: absolute;
     top: 40px;
-    left: 60%;
+    left: 72%;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 #header li {
@@ -66,14 +66,14 @@
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     padding-top: 100px;
 }
 
 #header p {
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
 }
 
@@ -95,8 +95,8 @@ h1 {
     background-color: #ffffff;
 }
 
-#bloc2 img {
-    padding: 9px 406px;
+.motif {
+    padding: 9px 47%;
     width: 87px;
 }
 
@@ -106,10 +106,10 @@ h1 {
 }
 
 .text {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     padding: 30px;
-    line-height: 30px;
+    line-height: 45px;
     font-weight: lighter;
 }
 
@@ -136,6 +136,7 @@ h1 {
 }
 
 .ced h3 {
+    font-size: 14px;
     padding-bottom: 10px;
     font-weight: bold;
 }
@@ -154,6 +155,7 @@ h1 {
 }
 
 .con h3 {
+    font-size: 14px;
     padding-bottom: 10px;
     font-weight: bold;
 }
@@ -169,10 +171,11 @@ h1 {
     font-size: 12px;
     position: absolute;
     top: 50px;
-    left: 483px;
+    left: 76%;
 }
 
 .News h3 {
+    font-size: 14px;
     padding-bottom: 10px;
     font-weight: bold;
 }

@@ -1,0 +1,47 @@
+#produit #bloc2 {
+    position: relative;
+}
+
+#produit .hommos {
+    width: 350px;
+    padding: 10px 150px;
+}
+
+#produit .trait {
+    height: 1px;
+    background-color: #f0f0f0;
+    margin: 0px 200px;
+}
+
+#produit .des {
+    position: absolute;
+    top: 142px;
+    left: 57%;
+    font-size: 21px;
+    font-style: normal;
+}
+
+#produit .ing {
+    position: absolute;
+    top: 250px;
+    left: 57%;
+    font-size: 21px;
+    font-style: normal;
+}
+
+#produit .pdes {
+    position: absolute;
+    top: 180px;
+    left: 57%;
+    font-size: 16px;
+    font-style: normal;
+}
+
+#produit .ping {
+    position: absolute;
+    top: 290px;
+    left: 57%;
+    font-size: 16px;
+    font-style: normal;
+    width: 450px;
+}
