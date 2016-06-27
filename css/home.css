@@ -118,7 +118,58 @@ h1 {
 
 #bloc3 {
     background-color: #f3f3f3;
-    height: 1300px;
+    height: 550px;
+    position: relative;
+}
+
+.spe1 img {
+    width: 230px;
+    height: 200px;
+    padding-top: 100px;
+    margin-left: 88px;
+}
+
+.spe1 p {
+    font-size: 16px;
+    margin-left: 88px;
+    padding-top: 4px;
+}
+
+.spe1 {
+    float: left;
+}
+
+
+/**  bloc4 css  **/
+
+#bloc4 {
+    background-color: #f3f3f3;
+    height: 750px;
+    position: relative;
+}
+
+#bloc4 h3 {
+    font-size: 22px;
+    padding-left: 12%;
+}
+
+.gall img {
+    height: 230px;
+    width: 348px;
+    margin: -1px -2px;
+}
+
+.gall {
+    padding: 99px 163px;
+}
+
+.slice {
+    height: 1px;
+    background-color: #e5e3e3;
+    width: 200px;
+    position: absolute;
+    top: 9px;
+    left: 336px;
 }
 
 
