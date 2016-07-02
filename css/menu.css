@@ -1,0 +1,45 @@
+#menu #bloc2 p {
+    font-size: 16px;
+    padding: 22px 0 39px 0;
+}
+
+#menu .men {
+    position: absolute;
+    top: 85px;
+    left: 50px
+}
+
+#menu .men2 {
+    position: absolute;
+    top: 85px;
+    left: 400px
+}
+
+#menu .men1 {
+    position: absolute;
+    top: 85px;
+    left: 550px
+}
+
+#menu .men3 {
+    position: absolute;
+    top: 85px;
+    left: 900px
+}
+
+#menu #bloc2 {
+    position: relative;
+    height: 1500px;
+}
+
+#menu .plat {
+    position: absolute;
+    top: 505px;
+    left: 207px;
+}
+
+#menu .dessert {
+    position: absolute;
+    top: 1005px;
+    left: 207px;
+}
