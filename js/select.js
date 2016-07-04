@@ -9,16 +9,15 @@ $(document).ready(function () {
 
         if ($("select#formAction option:selected").data('action') == 'reservation') {
 
-            $("#hours").show();
+            $("#personne").show();
+            $("#heure").show();
 
         } else {
-            $("#hours").hide();
+            $("#personne").hide();
+            $("#heure").hide();
         }
 
 
     }).change();
-
-
-
 
 });

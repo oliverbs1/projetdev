@@ -13,15 +13,15 @@ app.get('/', function (req, res) {
 });
 
 app.get('/menu', function (req, res) {
-    res.sendFile(__dirname + 'menu.html');
+    res.sendFile(__dirname + '/menu.html');
 });
 
 app.get('/product', function (req, res) {
-    res.sendFile(__dirname + 'product.html');
+    res.sendFile(__dirname + '/product.html');
 });
 
 app.get('/contact', function (req, res) {
-    res.sendFile(__dirname + 'contact.html');
+    res.sendFile(__dirname + '/contact.html');
 });
 
 http.listen(1337, function () {

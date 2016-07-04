@@ -5,25 +5,172 @@
     <meta charset="UTF-8">
     <title>contact</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="css/meyer.css">
+    <link rel="stylesheet" href="css/script.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 
-<body>
+<body id="contact">
+    <div id="bloc1" class="bloc">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="mezze" src="images/mezze.jpg" alt="mezze">
+                </div>
+            </div>
+        </div>
+
+        <div id="header" class="bloc">
+            <div class="wrapper">
+                <img src="images/logo2.png" alt="logo">
+                <ul class="hel">
+                    <a href="home.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="menu.html">
+                        <li>Menu</li>
+                    </a>
+                    <li>Nos Plats</li>
+                    <a href="contact.html">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+                <h1 class="mar">Contact</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="bloc2" clas="bloc">
+
+        <img class="motif" src="images/motif.png" alt="motif">
+        <h2 class="abu pal">Contact Us/Réservation</h2>
+
+        <form>
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />
+            <input name="prenom" type="text" class="feedback-input" placeholder="Prénom" />
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <select id="formAction" class="feedback-input">
+                <option data-action="message" placeholder="Comment">Message</option>
+                <option data-action="reservation">Reservation</option>
+            </select>
+            <select id="personne" class="feedback-input">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+            </select>
+            <select id="heure" class="feedback-input">
+                <option value="">11h00</option>
+                <option value="">11h15</option>
+                <option value="">11h30</option>
+                <option value="">11h45</option>
+                <option value="">12h</option>
+                <option value="">12h15</option>
+                <option value="">12h30</option>
+                <option value="">12h45</option>
+                <option value="">13h</option>
+                <option value="">13h15</option>
+                <option value="">13h30</option>
+                <option value="">13h45</option>
+                <option value="">14h</option>
+                <option value="">14h15</option>
+                <option value="">14h30</option>
+                <option value="">18h00</option>
+                <option value="">18h15</option>
+                <option value="">18h30</option>
+                <option value="">18h45</option>
+                <option value="">19h</option>
+                <option value="">19h15</option>
+                <option value="">19h30</option>
+                <option value="">19h45</option>
+                <option value="">20h</option>
+                <option value="">20h15</option>
+                <option value="">20h30</option>
+                <option value="">20h45</option>
+                <option value="">21h</option>
+                <option value="">21h15</option>
+                <option value="">21h30</option>
+                <option value="">21h45</option>
+                <option value="">22h</option>
+                <option value="">22h15</option>
+                <option value="">22h30</option>
+            </select>
 
 
+            <textarea id="message" name="text" class="feedback-input" placeholder="Message"></textarea>
+            <input type="submit" value="SUBMIT" />
 
-    <form>
+        </form>
 
-        <select id="formAction">
-            <option data-action="message">Message</option>
-            <option data-action="reservation">Reservation</option>
+        <div class="inf hel">
+            <h3 class="title">Nos Coordonnées</h3>
+            <p>www.lescedresdebeyrouth.com</p>
+            <p>restaurant@gmail.com</p>
+            <p>01.48.34.45.29</p>
+            <p>34 rue du louvre, Paris 75001</p>
+        </div>
 
-        </select>
+        <div id="map"></div>
 
-    </form>
+    </div>
 
-    <div id="hours">hours</div>
+    <!----------- footer ----------->
+    <div id="footer" class="bloc">
+        <div class="wrapper">
+            <div class="ced">
+                <h3 class="hel">Les Cédres De Beyrouth</h3>
+                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500...</p>
+            </div>
+            <div class="con">
+                <h3 class="hel">Contact</h3>
+                <p>www.lescedresdebeyrouth.com</p>
+                <p>restaurant@gmail.com</p>
+                <p>01.48.34.45.29</p>
+                <p>34 rue du louvre, Paris 75001</p>
+            </div>
+            <div class="News">
+                <h3 class="hel">Newletter</h3>
+                <p>Inscrivez-vous à la newsletter du site pour recevoir les promotions faite par le restaurant.</p>
+            </div>
+            <div class="space"></div>
+            <p class="copyright">© 2016 Webstart.</p>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/"><img src="images/fb.png" alt="fb"></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/"><img src="images/twiit.png" alt="twiiter"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/"><img src="images/insta.png" alt="insta"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-    <script src="select.js"></script>
+    <script src="js/map.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaEY2HWdnqdjR1OQp39cJCXvCmMRzDcc8&signed_in=true&callback=initMap" async defer></script>
+
+    <script src="js/select.js"></script>
 </body>
 
 </html>
